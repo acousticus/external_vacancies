@@ -6,3 +6,8 @@
 .httr-oauth
 .DS_Store
 dcnspr.Rproj
+encrypted
+encrypted/*
+git_cheatsheet.R
+.staticrypt.json
+encrypt.sh

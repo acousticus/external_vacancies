@@ -1,0 +1,7 @@
+library(usethis)
+system("./encrypt.sh")
+git_comment = glue::glue("update rota {lubridate::today()}")
+system('git add --all'); system(glue::glue('git commit -m "{git_comment}"'))
+system('git push origin master')
+#browseURL('https://github.com/acousticus/dcnspr.git')
+browseURL('https://acousticus.github.io/dcnspr')

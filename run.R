@@ -1,3 +1,4 @@
+rmarkdown::render('../dcnrota/published_rota.Rmd')
 library(usethis)
 system("./encrypt.sh")
 git_comment = glue::glue("update rota {lubridate::today()}")
